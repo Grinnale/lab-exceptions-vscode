@@ -1,4 +1,5 @@
 package lab.exceptions;
+import java.lang.Math;
 
 /**
  * Quadratic expressions (of the form ax^2 + bx + c).
@@ -72,7 +73,7 @@ public class Quadratic {
    * Find the smaller of the two roots.
    */
   public double smallerRoot() {
-    return 0;   // STUB
+    return ((0 - this.b) - Math.sqrt((this.b * this.b) - (4 * this.a * this.c))) / (2 * this.a); 
   } // smallerRoot
 
   /**

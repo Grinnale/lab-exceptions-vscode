@@ -12,7 +12,7 @@ import java.io.PrintWriter;
  * @author Your Name Here
  */
 public class ReadIntExpt1 {
-  public static void main(String[] args) throws Exception {
+  public static void main(String[] args) throws Exception{
     PrintWriter pen = new PrintWriter(System.out, true);
     BufferedReader eyes = new BufferedReader(new InputStreamReader(System.in));
 
